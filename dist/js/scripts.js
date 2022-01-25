@@ -32,3 +32,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// profile picture hoover
+document.querySelector(".img-profile").addEventListener('mouseover', function (e) {
+    e.target.src = 'https://pbs.twimg.com/profile_images/1421046483676241921/cMbGnPBm_400x400.jpg'
+});
