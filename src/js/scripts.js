@@ -28,7 +28,12 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-// profile picture hoover
-document.querySelector(".img-profile").addEventListener('mouseover', function (e) {
+// hoover foto de perfil
+
+const  pfpimage = document.querySelector(".img-profile")
+pfpimage.addEventListener('mouseover', function (e) {
+    e.target.src = 'assets/img/profile.jpg'
+})
+pfpimage.addEventListener('mouseout',  function (e) {
     e.target.src = 'https://pbs.twimg.com/profile_images/1421046483676241921/cMbGnPBm_400x400.jpg'
 });
