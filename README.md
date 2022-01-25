@@ -1,6 +1,6 @@
-Este es mi primer proyecto usando [Bootstrap](https://getbootstrap.com/)/[PUG/JADE](https://pugjs.org)/[NodeJS](http://nodejs.org) para hacer mi resume/cv, clonado de [Resume](https://startbootstrap.com/theme/resume/) realizado por [Start Bootstrap](https://startbootstrap.com/).
+Este es mi primer proyecto usando [Bootstrap](https://getbootstrap.com/)/[PUG/JADE](https://pugjs.org)/[NodeJS](http://nodejs.org) para hacer mi Resume/CV, clonado de [Resume](https://startbootstrap.com/theme/resume/) realizado por [Start Bootstrap](https://startbootstrap.com/).
 
-La intención era aprender a moverme con git, clonar repositorios, usar github pages y 'gh-pages' btanch, entender scripts de npm aprovechando la necesidad de actualizar mi CV.
+La intención era aprender a moverme con git, clonar repositorios, usar github pages y y su branch 'gh-pages', entender scripts de npm aprovechando la necesidad de actualizar mi CV.
 
 ## Preview
 
