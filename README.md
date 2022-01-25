@@ -4,9 +4,9 @@ La intención era aprender a moverme con git, clonar repositorios, usar github p
 
 ## Preview
 
-[![Resume Preview](https://assets.startbootstrap.com/img/screenshots/themes/resume.png)](https://startbootstrap.github.io/startbootstrap-resume/)
+[![Resume Preview](assets/screenshots/screenshot_cv.png)](https://jcjetz.github.io/resumeJetza/)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-resume/)**
+**[View Live Preview](https://jcjetz.github.io/resumeJetza/)**
 
 ## Status
 
