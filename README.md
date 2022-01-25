@@ -1,6 +1,6 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume/)
+Este es mi primer proyecto usando [Bootstrap](https://getbootstrap.com/)/[PUG/JADE](https://pugjs.org)/[NodeJS](http://nodejs.org) para hacer mi resume/cv, clonado de [Resume](https://startbootstrap.com/theme/resume/) realizado por [Start Bootstrap](https://startbootstrap.com/).
 
-[Resume](https://startbootstrap.com/theme/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+La intención era aprender a moverme con git, clonar repositorios, usar github pages y 'gh-pages' btanch, entender scripts de npm aprovechando la necesidad de actualizar mi CV.
 
 ## Preview
 
@@ -15,25 +15,6 @@
 [![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume)
 [![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume?type=dev)
 
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/resume/)
-- Install using npm: `npm i startbootstrap-resume`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-resume.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-resume)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
-
 #### npm Scripts
 
 - `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
@@ -46,10 +27,6 @@ Clone the source files of the theme and navigate into the theme's root directory
 - `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
 
 You must have npm installed in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-resume/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/resume/).
 
 ## About
 
