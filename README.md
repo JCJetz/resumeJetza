@@ -4,7 +4,7 @@ La intención era aprender a moverme con git, clonar repositorios, usar github p
 
 ## Preview
 
-[![Resume Preview](assets/screenshots/screenshot_cv.png)](https://jcjetz.github.io/resumeJetza/)
+[![Resume Preview](https://i.imgur.com/caHUtaa.png)](https://jcjetz.github.io/resumeJetza/)
 
 **[View Live Preview](https://jcjetz.github.io/resumeJetza/)**
 
