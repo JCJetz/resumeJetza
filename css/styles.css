@@ -11339,6 +11339,7 @@ p.lead {
   border-style: solid;
   border-color: #96497c;
   border-width: 4px;
+  background-color: #96497c;
 }
 
 .slide-box {
@@ -11364,12 +11365,6 @@ p.lead {
     max-width: 25%;
   }
 }
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 0.5rem;
-}
-
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
