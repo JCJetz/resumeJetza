@@ -11334,6 +11334,41 @@ p.lead {
   padding-bottom: 20px;
 }
 
+#interests {
+  padding-top: 0px;
+}
+
+.carousel {
+  width: 100%;
+  border-style: solid;
+  border-color: #96497c;
+  border-width: 4px;
+  background-color: #96497c;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+@media (min-width: 992px) {
+  .slide-box img {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
