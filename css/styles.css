@@ -11334,6 +11334,10 @@ p.lead {
   padding-bottom: 20px;
 }
 
+#interests {
+  padding-top: 0px;
+}
+
 .carousel {
   width: 100%;
   border-style: solid;
