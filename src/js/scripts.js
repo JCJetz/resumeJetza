@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 const  pfpimage = document.querySelector(".img-profile")
 pfpimage.addEventListener('mouseover', function (e) {
-    e.target.src = 'assets/img/profile.jpg'
+    e.target.src = 'assets/img/profile3.jpg'
 })
 pfpimage.addEventListener('mouseout',  function (e) {
     e.target.src = 'https://pbs.twimg.com/profile_images/1421046483676241921/cMbGnPBm_400x400.jpg'

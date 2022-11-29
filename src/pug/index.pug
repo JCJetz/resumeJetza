@@ -4,23 +4,23 @@ html(lang='en')
     head
 
         meta(charset='utf-8')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description' content='')
+        meta(name='author' content='')
 
-        title Resume - Start Bootstrap Theme
+        title Resume - CV Jetzabel Cisneros
 
-        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        link(rel='icon' type='image/x-icon' href='assets/img/favicon.ico')
 
         // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v5.15.4/js/all.js', crossorigin='anonymous')
+        script(src='https://use.fontawesome.com/releases/v5.15.4/js/all.js' crossorigin='anonymous')
 
         // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700' rel='stylesheet' type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i' rel='stylesheet' type='text/css')
 
         // Core theme CSS (includes Bootstrap)
-        link(href='css/styles.css', rel='stylesheet')
+        link(href='css/styles.css' rel='stylesheet')
 
     body#page-top
 
@@ -30,25 +30,21 @@ html(lang='en')
                 span.d-block.d-lg-none Jetzabel Cisneros
                 span.d-none.d-lg-block
                     .image-wrapper
-                        img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='https://pbs.twimg.com/profile_images/1421046483676241921/cMbGnPBm_400x400.jpg', alt='...')
-            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                        img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='https://pbs.twimg.com/profile_images/1421046483676241921/cMbGnPBm_400x400.jpg' alt='...')
+            button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
                 ul.navbar-nav
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') Info
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#sobremi') Sobre mi
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experiencia
-                    //-
-                        li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Educacion
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#habilidades') Habilidades
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Intereses
-                    //-
-                        li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Premios
 
         // Page Content
         .container-fluid.p-0
@@ -60,6 +56,7 @@ html(lang='en')
                         | Jetzabel 
                         span.text-primary Cisneros
                     .subheading.mb-2
+                        | Developer
                         i.fas.fa-globe-europe
                         | Barcelona 
                     .subheading.mb-2
@@ -67,241 +64,193 @@ html(lang='en')
                         a(href='mailto:name@email.com') jetzabel@gmail.com
                     .subheading.mb-5
                         | Twitter:
-                        a(href='https://www.twitter.com/ms_leeloo', target="_blank") @ms_leeloo
-                    .subheading.mb-2
-                        | Retocadora / Fotógrafa
+                        a(href='https://www.twitter.com/ms_leeloo' target="_blank") @ms_leeloo
                     .subheading.mb-5
-                        a(href='https://www.jetzstudio.com', target="_blank") www.jetzstudio.com
+                        a(href='https://www.jetzstudio.com' target="_blank") www.jetzstudio.com
                     .social-icons
-                        a.social-icon(href='https://github.com/JCJetz', target='_blank')
+                        a.social-icon(href='https://github.com/JCJetz' target='_blank')
                             i.fab.fa-github
-                        a.social-icon(href='https://www.twitter.com/ms_leeloo', target="_blank")
+                        a.social-icon(href='https://www.twitter.com/ms_leeloo' target="_blank")
                             i.fab.fa-twitter
-                        a.social-icon(href='https://www.linkedin.com/in/jetzabel-cisneros', target="_blank")
+                        a.social-icon(href='https://www.linkedin.com/in/jetzabel-cisneros' target="_blank")
                             i.fab.fa-linkedin-in
 
-            hr.m-0
+            
+            // Sobremi
+            section#sobremi.resume-section
+                .resume-section-content
+                    h2.mb-5.text-primary Sobre mi 
+                    p.mb-0
+                    p   👋 Soy Jetzabel Cisneros, desarrolladora web con experiencia previa en fotografía de estudio y retoque de moda. 
+                    p   
+                        | Empecé aprendiendo HTML y CSS siguiendo el curso de Udemy
+                        a(href="https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/" target="_blank") 100 Days Of Code 
+                        | y resolviendo desafíos de
+                        a(href="https://www.frontendmentor.io/profile/JCJetz" target="_blank") Frontend Mentor 
+                        | por cuenta propia. Como me gustó, decidí inscribirme al bootcamp <b>Full Stack Developer</b> de 
+                        a(href='https://www.neoland.es' target="_blank") Neoland,
+                        | donde tuve la oportunidad de continuar mi aprendizaje de forma más intensa y ampliar mi comprensión general sobre el desarrollo web.                  
+                    p   Durante los meses posteriores he continuado aprendiendo, siguiendo 
+                        a(href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank") - React - The Complete Guide (incl Hooks, React Router, Redux)
+                        | , mientras reafirmaba conceptos desarrollando pequeñas apps propias.
 
+                    p   👀 <b>¡Gracias</b> por dedicarme su tiempo! Por favor, no dude en ponerse en contacto conmigo.
+            
+            
             // Experience
             section#experience.resume-section
-               .resume-section-content
+                .resume-section-content
                     h2.mb-5.text-primary Experiencia
-
+                    p.mb-0
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 JETZSTUDIO PHOTOGRAPHY - BARCELONA
+                            h3.mb-0 JETZSTUDIO PHOTOGRAPHY - BARCELONA.
                             .subheading.mb-3 FOTÓGRAFA / RETOCADORA
                             li
                                 span.fa-li
                                     i.fas.fa-star
-                                | Fotografía y retoque de moda. Retratos corporativos. Fotografía infantil / catálogos. Workshops fotográficos para agencias de modelos.
+                                | Fotografía y retoque de moda. Retratos corporativos. Fotografía infantil / catálogos. Workshops fotográficos para agencias de modelos.    
                             p
                             li
                                 span.fa-li
                                     i.fas.fa-star  
-                                | JetzLove - Fotografía para eventos nupciales. 
-
-                            p
-
-                            script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js")
-                            script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js")
-                            .carousel.slide.carousel-fade(data-ride='carousel' data-interval='4000')
-                                ol.carousel-indicators
-                                    li.active(data-target='#carousel' data-slide-to='0')
-                                    li(data-target='#carousel' data-slide-to='1')
-                                .carousel-inner
-                                    .carousel-item.active
-                                        .d-none.d-lg-block
-                                            .slide-box
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2016/01/Boda-Anna-5022-2-1024x682.jpg' alt='Second slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2016/01/Boda-Anna-5102-750x500.jpg' alt='Second slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2016/01/0008-Anna-5001-1024x682.jpg' alt='Second slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2016/01/Boda-Anna-5014-2-720x555.jpg' alt='Second slide')
-                                    .carousel-item
-                                        .d-none.d-lg-block
-                                            .slide-box
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_0196-Done-K1600px2-e1418675537527-720x555.jpg' alt='Second slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_0098-Edit1600px-749x500.jpg' alt='First slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_0158-Done1600px1-749x500.jpg' alt='First slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_0553-EditK21600px-749x500.jpg' alt='Second slide')
-                                    .carousel-item
-                                        .d-none.d-lg-block
-                                            .slide-box
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_9363-Edit21600px-720x555.jpg' alt='First slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_9122-Edit-Edit1600px-720x555.jpg' alt='First slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_9366-Done1600px-720x480.jpg' alt='First slide')
-                                                img(src='https://www.jetzlove.com/wp-content/uploads/2014/03/MG_9195-Done1600px-749x500.jpg' alt='First slide')
+                                | JetzLove - Fotografía para eventos nupciales.       
                                 
-                                //- Quito controles porque no puedo usar 'slide'.. crea un espacio en blanco y no se arreglarlo :(
-                                    se queda así de momento
-
-                                    a.carousel-control-prev(href='#carousel' role='button' data-slide='prev')
-                                        span.carousel-control-prev-icon(aria-hidden='true')
-                                        span.sr-only Previous
-                                    a.carousel-control-next(href='#carousel' role='button' data-slide='next')
-                                        span.carousel-control-next-icon(aria-hidden='true')
-                                        span.sr-only Next
-
+                            p
                         .flex-shrink-0
                             span.text-primary 2016 - 2019
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
                             h3.mb-0 BOURBAKI PHOTOGRAPHY - BARCELONA.
-                            .subheading.mb-3 FOTÓGRAFA / RETOCADORA / ESTILISTA
+                            .subheading.mb-3 FOTÓGRAFA / RETOCADORA 
                             li
                                 span.fa-li
                                     i.fas.fa-star
                                 | Fotografía, dirección artística, scouting, negociación de localizaciones y estilismos, organización de casting.
-                            p
+                            p 
                             li
                                 span.fa-li
                                     i.fas.fa-star    
                                 | Coordinación de equipos, captura, archivado y retoque digital. Publicación web y entrega / seguimiento del producto final.
-                            p 
-                            
-                            .carousel.slide.carousel-fade(data-ride='carousel' data-interval='4000')
-                                ol.carousel-indicators
-                                    li.active(data-target='#carousel' data-slide-to='0')
-                                    li(data-target='#carousel' data-slide-to='1')
-                                .carousel-inner
-                                    .carousel-item.active
-                                        .d-none.d-lg-block
-                                            .slide-box
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/1.jpg' alt='First slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/2.jpg' alt='First slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/3.jpg' alt='First slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/4.jpg' alt='First slide')
-                                    .carousel-item
-                                        .d-none.d-lg-block
-                                            .slide-box
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/5.jpg' alt='Second slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/6.jpg' alt='Second slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/7.jpg' alt='Second slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/8.jpg' alt='Second slide')
-                                    .carousel-item
-                                        .d-none.d-lg-block
-                                            .slide-box
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/9.jpg' alt='Third slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/10.jpg' alt='Third slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/11.jpg' alt='Third slide')
-                                                img(src='https://www.jetzstudio.com/wp-content/uploads/carousel/12.jpg' alt='Third slide')
-
-                        .flex-shrink-0
-                            span.text-primary 2010 - 2016
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 MHOMS MODEL MANAGEMENT - BARCELONA.
-                            .subheading.mb-3 BOOKER / ONLINE ASSET MANAGER
-                            li
-                                span.fa-li
-                                    i.fas.fa-star
-                                | Organización de agenda de trabajos y negociación de tests. Realización, edición y publicación de video-books/castings.
-                            p
-                            li
-                                span.fa-li
-                                    i.fas.fa-star    
-                                | Realización y seguimiento de newslettter HTML mensual. Actualización de contenido web.
                             p
                         .flex-shrink-0
-                            span.text-primary 2008 - 2010
+                            span.text-primary  2010 - 2016
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 D.W - PINEDA DE MAR, BARCELONA
-                            .subheading.mb-3 GERENTE
-                            li
-                                span.fa-li
-                                    i.fas.fa-star
-                                | Acondicionamiento de local para tienda de ropa de gama alta, establecimiento y ejecución diaria del negocio, pedidos, showrooms. 
-                            p 
-                            li
-                                span.fa-li
-                                    i.fas.fa-star    
-                                | Organización y coordinación de desfile benéfico bi-anual.
+                            hr.m-0
 
-                        .flex-shrink-0
-                            span.text-primary  2005 - 2010
-
-            hr.m-0
-        
             // Habilidades
             section#habilidades.resume-section
-               .resume-section-content
+                .resume-section-content
                     h2.mb-5.text-primary Habilidades
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            .subheading.mb-1 RETOQUE Y EDICIÓN
+                            .subheading.mb-1 Languages & Frameworks
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | JavaScript, React.js, Express.js,                                 
+
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | HTML & CSS, Bootstrap 
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | Rest API, Node.js, Redux, React Router
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | Preferred Environment:  Git, MacOS
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | Storage: MongoDB 
+
+                            p 
+
+                            p 🌱 Actualmente continuo aprendiendo Next.js y más MERN Stack. 
+      
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            .subheading.mb-3 SOFT skills
+
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | Habilidades de comunicación para el trabajo en equipo y resolución de conflictos.
+                            
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | Buenas habilidades organizativas y de gestión del tiempo.
+
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                |  Flexibilidad y adaptación al cambio.
+
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | Mucha curiosidad y creatividad.
+
+                            p    
+                            //h3.mb-0 RETOQUE Y EDICIÓN
+                            .subheading.mb-3 OTROS
+                            
                             li
                                 span.fa-li
                                     i.fas.fa-plus
                                 | Retoque y archivo digital (Adobe Photoshop / Adobe Lightroom)
+                            
                             li
                                 span.fa-li
                                     i.fas.fa-plus
                                 | Fotografía de estudio (Canon/Nikon DSLR, Profoto, Bowens)
-                            li
-                                span.fa-li
-                                    i.fas.fa-plus
-                                | Edición de vídeo (Final Cut, After Effects, Premiere Pro)
+                           
                             p
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            .subheading.mb-3 OTROS
-                            li
-                                span.fa-li
-                                    i.fas.fa-plus
-                                | Administración web (Wordpress CMS, HTML, CSS)
-                            li
-                                span.fa-li
-                                    i.fas.fa-plus
-                                | Social media management (Facebook,Twitter,Instagram,Discord)
-                            li
-                                span.fa-li
-                                    i.fas.fa-plus
-                                | Contabilidad y Ofimática (ContaSol / Facturaplus, MS Office)
-                            p
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            //h3.mb-0 RETOQUE Y EDICIÓN
                             .subheading.mb-3 IDIOMAS
                             li
                                 span.fa-li
                                     i.fas.fa-plus
-                                | Castellano:    Materno.
+                                | <b>Castellano:</b> Materno.
+                           
                             li
                                 span.fa-li
                                     i.fas.fa-plus
-                                | Inglés:        Hablado y escrito, nivel medio-alto.
-                            li
-                                span.fa-li
-                                    i.fas.fa-plus
-                                | Catalán:       Hablado nivel medio-alto, escrito nivel medio.
+                                | <b>Catalán:</b>  Hablado nivel medio-alto, escrito nivel medio.
 
+                            
+                            li
+                                span.fa-li
+                                    i.fas.fa-plus
+                                | <b>Inglés:</b> Mi nivel de inglés es intermedio, (B2-C1) todos los cursos que he hecho por mi cuenta han sido en inglés, leo a diario y obtengo información en este idioma. Ahora estoy mejorando mis habilidades verbales, ya que es lo que menos practico.
                             p
-                    //-
-                        //.subheading.mb-3 Programming Languages & Tools
-                        ul.list-inline.dev-icons
-                            li.list-inline-item
-                                // img(src="assets/img/24photoshop.png")
-                                i.fab.fa-html5
-                            li.list-inline-item
-                                i.fab.fa-css3-alt
-                            li.list-inline-item
-                                i.fab.fa-js-square
-                            li.list-inline-item
-                                i.fab.fa-angular
-                            li.list-inline-item
-                                i.fab.fa-react
-                            li.list-inline-item
-                                i.fab.fa-node-js
-                            li.list-inline-item
-                                i.fab.fa-sass
-                            li.list-inline-item
-                                i.fab.fa-less
-                            li.list-inline-item
+                    //-iconos
+                    //.subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            // img(src="assets/img/24photoshop.png")
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node
+                        li.list-inline-item
+                            i.fab.fa-bootstrap
+                        li.list-inline-item
+                            i.fab.fa-github
+                        li.list-inline-item
+                        
 
             hr.m-0
 
@@ -310,13 +259,11 @@ html(lang='en')
                 .resume-section-content
                     .resume-section-intereses
                         h2.mb-5.text-primary Intereses
-                        
-                            
+
                         p.mb-0
-                        p   He descubierto los NFTs hace poco y estoy aprendiendo sobre blockchains, contratos inteligentes, web3 y activos digitales en general.
+                        p   He descubierto los NFTs hace poco y estoy aprendiendo sobre web3, blockchains, contratos inteligentes y activos digitales en general 👀
                         p   En mi tiempo libre suelo nadar, leer e ir a la playa, ya que vivo muy cerquita y es algo que disfruto mucho! 
-                        p
-                        p     Aprendiz de desarrolladora. Intentando coger algo de soltura usando git, bootstrap y node/npm.  
+                       
                     .resume-section-caracter
                         .subheading.mb-3 Caracter
                         ul.fa-ul.mb-0
@@ -336,50 +283,8 @@ html(lang='en')
                                 span.fa-li
                                     i.fas.fa-check
                                 | Soy alegre y afable por naturaleza. 
-            
-            //- Premios
-                section#awards.resume-section
-                    .resume-section-content
-                        h2.mb-5 Premios
-                        ul.fa-ul.mb-0
-                            li
-                                span.fa-li
-                                    i.fas.fa-trophy.text-warning
-                                | Google Analytics Certified Developer
-                            li
-                                span.fa-li
-                                    i.fas.fa-trophy.text-warning
-                                | Mobile Web Specialist - Google Certification
-                            li
-                                span.fa-li
-                                    i.fas.fa-trophy.text-warning
-                                | 1
-                                sup st 
-                                | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                            li
-                                span.fa-li
-                                    i.fas.fa-trophy.text-warning
-                                | 1
-                                sup st 
-                                | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                            li
-                                span.fa-li
-                                    i.fas.fa-trophy.text-warning
-                                | 2
-                                sup nd 
-                                | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                            li
-                                span.fa-li
-                                    i.fas.fa-trophy.text-warning
-                                | 1
-                                sup st 
-                                | Place - James Buchanan High School - Hackathon 2006
-                            li
-                                span.fa-li
-                                    i.fas.fa-trophy.text-warning
-                                | 3
-                                sup rd 
-                                | Place - James Buchanan High School - Hackathon 2005
+
+            hr.m-0
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
